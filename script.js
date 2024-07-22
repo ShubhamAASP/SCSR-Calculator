@@ -16,12 +16,12 @@ function find(event)
 
     if(operation==="Square") {
     r=n*n;
-    let a="Square "+ r.toFixed(2);
+    let a="Square = "+ r.toFixed(2);
     msg.innerHTML=a;  
     }      
     else if(operation==="Cube"){
         r=n*n*n;
-        let a="Cube "+ r.toFixed(2);
+        let a="Cube = "+ r.toFixed(2);
         msg.innerHTML=a;  
     }
     else if(operation==="Square Root"){
@@ -33,7 +33,7 @@ function find(event)
             return;
         }
         r=Math.sqrt(n);
-        let a="Square Root "+ r.toFixed(2);
+        let a="Square Root = "+ r.toFixed(2);
         msg.innerHTML=a;  
     
     } 
